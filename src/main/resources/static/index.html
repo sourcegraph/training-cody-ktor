@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        .endpoint {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pet Store API</h1>
+    <p>Welcome to the Ktor Pet Store API. This implementation demonstrates a RESTful API using Kotlin and Ktor.</p>
+    
+    <h2>Available Endpoints:</h2>
+    
+    <h3>Categories</h3>
+    <div class="endpoint">GET /api/categories/random</div>
+    <p>Get a random category</p>
+    
+    <div class="endpoint">GET /api/categories/random/{count}</div>
+    <p>Get multiple random categories</p>
+    
+    <h3>Pets</h3>
+    <div class="endpoint">GET /api/pets/random</div>
+    <p>Get a random pet</p>
+    
+    <div class="endpoint">GET /api/pets/random/{count}</div>
+    <p>Get multiple random pets</p>
+    
+    <h3>Tags</h3>
+    <div class="endpoint">GET /api/tags/random</div>
+    <p>Get a random tag</p>
+    
+    <div class="endpoint">GET /api/tags/random/{count}</div>
+    <p>Get multiple random tags</p>
+    
+    <h2>Technology Stack</h2>
+    <ul>
+        <li>Kotlin</li>
+        <li>Ktor Web Framework</li>
+        <li>Jackson for JSON serialization</li>
+    </ul>
+</body>
+</html>
