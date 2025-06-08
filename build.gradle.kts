@@ -48,7 +48,7 @@ dependencies {
     // Testing
     testImplementation("io.ktor:ktor-server-test-host:$ktorVersion")
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.24")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.13.1")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
