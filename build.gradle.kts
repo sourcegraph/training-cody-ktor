@@ -15,7 +15,7 @@ repositories {
 
 val ktorVersion = "2.3.11"
 val logbackVersion = "1.5.3"
-val jacksonVersion = "2.17.0"
+val jacksonVersion = "2.22.2"
 
 dependencies {
     // Ktor server dependencies
