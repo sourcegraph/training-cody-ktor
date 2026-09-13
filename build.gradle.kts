@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.9.24"
-    kotlin("plugin.serialization") version "1.9.24"
+    kotlin("jvm") version "1.9.25"
+    kotlin("plugin.serialization") version "1.9.25"
     application
 }
 
@@ -47,7 +47,7 @@ dependencies {
     
     // Testing
     testImplementation("io.ktor:ktor-server-test-host:$ktorVersion")
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.24")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.25")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
